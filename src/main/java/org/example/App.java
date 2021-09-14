@@ -15,15 +15,15 @@ public class App
         Scanner scanner = new Scanner(System.in);
 
         //Get input value for temperature type
-        System.out.println("Press C to convert from Fahrenheit to Celsius");
-        System.out.println("Press F to convert from Celsius to Fahrenheit");
+        System.out.println("Press C to convert from Fahrenheit to Celsius.");
+        System.out.println("Press F to convert from Celsius to Fahrenheit.");
         System.out.print("Your choice: ");
 
         //Initialization of conversions/user temp
         String temp = scanner.next();
         int tempValue = 0;
-        int celsConv = 0;
-        int fahConv = 0;
+        int celsConv;
+        int fahConv;
 
         //Conditional for getting accurate temp value
         System.out.print("Please enter your temperature in ");
